@@ -1,11 +1,35 @@
-/* 
+strong {
+  color: rgb(0, 255, 251);
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+input::placeholder {
+  color: rgb(167, 180, 181);
+}
 
-*/
+li {
+  display: flex;
+  flex-direction: row;
+  color: gray;
+}
+
+p {
+  font-family: "Saira Stencil", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.boton {
+  opacity: 0;
+}
+
+.taskLine:hover .boton {
+  opacity: 1;
+}
+
+.toDo {
+  background: whitesmoke;
+  min-height: 100px;
+  width: 600px;
+}
